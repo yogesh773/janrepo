@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smiling Emoji Says Hi</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin-top: 100px;
+            background-color: #f0f8ff;
+        }
+
+        .emoji {
+            font-size: 80px;
+            animation: wave 1.5s infinite;
+            display: inline-block;
+        }
+
+        @keyframes wave {
+            0% { transform: rotate(0deg); }
+            15% { transform: rotate(15deg); }
+            30% { transform: rotate(-10deg); }
+            45% { transform: rotate(15deg); }
+            60% { transform: rotate(0deg); }
+            100% { transform: rotate(0deg); }
+        }
+
+        .greeting {
+            font-size: 32px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="emoji">😊</div>
+    <div class="greeting">Hi!</div>
+
+</body>
+</html>
+
