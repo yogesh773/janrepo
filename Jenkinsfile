@@ -26,17 +26,17 @@ pipeline {
             steps {
                 echo "Deploying application..."
                 // put your deploy script here
-OAOAOA            }
+            }
         }
-OAOAOAOAOAOAOAOAOAOA    }
-OA
+    }
+
     post {
-OAOAOA        success {
-OA            echo "✅ Pipeline finished successfully!"
-OA        }
+        success {
+            echo "✅ Pipeline finished successfully!"
+        }
         failure {
             echo "❌ Pipeline failed!"
-OAOAOAOAOAOAOAOAOA        }
-OA    }
-OA}
+        }
+    }
+}
 
