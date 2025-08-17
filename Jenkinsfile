@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/yogesh773/janrepo.git'
+                git branch: 'yogi', url: 'https://github.com/yogesh773/janrepo.git'
             }
         }
 
